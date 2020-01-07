@@ -64,7 +64,7 @@ h3 {
 
 .img-fluid{
   max-width: 25%;
-  margin-right: 15px;
+  margin-right: 25px;
 }
 
 .pull-left{
@@ -150,6 +150,10 @@ h3, h2 {
 }
 
 .main-section {
+}
+
+#myJumbo{
+  padding-top: 25px;
 }
 
 /* portfolio page */
