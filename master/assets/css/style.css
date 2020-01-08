@@ -62,7 +62,7 @@ h3 {
   margin-top: 25px !important;
 }
 
-.img-fluid{
+.myAboutImg{
   max-width: 25%;
   margin-right: 25px;
 }
@@ -158,6 +158,32 @@ h3, h2 {
 
 /* portfolio page */
 
+.card{
+  margin-bottom: 15px;
+}
+
+.card-img-caption {
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+}
+  
+.card-img-caption .card-img-top {
+  z-index: 0;
+}
+    
+.card-img-caption .card-text {
+  text-align: center;
+  width: 100%;
+  margin: 33% 0;
+  position: absolute;
+  z-index: 1;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
 .work {
   position: relative;
   float: left;
@@ -176,7 +202,7 @@ h3, h2 {
   opacity: 0.8;
 }
 
-.work h3 {
+.portfolioLabels {
   position: absolute;
   bottom: 20px;
   width: 100%;
